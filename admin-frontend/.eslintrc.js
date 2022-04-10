@@ -20,5 +20,6 @@ module.exports = {
     'vue/max-attributes-per-line': 'off',
     'vue/html-self-closing': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'vue/singleline-html-element-content-newline': '0ff',
   },
 };
