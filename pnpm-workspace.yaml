@@ -1,0 +1,6 @@
+packages
+  - 'admin'
+  - 'admin-backend'
+  - 'web'
+  - 'web-backend'
+  - 'app'

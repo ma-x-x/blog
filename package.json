@@ -1,0 +1,49 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ma-x-x/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "koa2",
+    "vue3",
+    "react",
+    "taro",
+    "mysql"
+  ],
+  "author": "maxx5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ma-x-x/blog/issues"
+  },
+  "homepage": "https://github.com/ma-x-x/blog#readme",
+  "devDependencies": {
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
+    "commitizen": "4.2.4",
+    "commitlint-config-cz": "0.13.3",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "6.3.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "npm run eslint",
+      "npm run prettier"
+    ]
+  }
+}
