@@ -1,0 +1,80 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\.e8fd13225175dcf0ac5a7b09dab1ccf662b88817-audit.json",
+    "files": [
+        {
+            "date": 1649865700222,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-14.log",
+            "hash": "621584c91453268e16ca3caa1c388370"
+        },
+        {
+            "date": 1649952004407,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-15.log",
+            "hash": "c07c7c93bb409373336378dcf366d586"
+        },
+        {
+            "date": 1650090054847,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-16.log",
+            "hash": "ac026a26dec4a9997b36fb004da96bd1"
+        },
+        {
+            "date": 1650124856436,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-17.log",
+            "hash": "8c6c712ebbd0c49d060d9f2f1131068f"
+        },
+        {
+            "date": 1650211469211,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-18.log",
+            "hash": "0f3dbde68a327d0b2ce9a89ab21cde4b"
+        },
+        {
+            "date": 1650380235952,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-19.log",
+            "hash": "e76953d9d2ca815ed922d2b841ec97bd"
+        },
+        {
+            "date": 1650385037310,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-20.log",
+            "hash": "a058ca51f7c551a0fd8489cf9a877c36"
+        },
+        {
+            "date": 1650470404377,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-21.log",
+            "hash": "8ac53f2a99864039d384b9b3be4dc792"
+        },
+        {
+            "date": 1650559663463,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-22.log",
+            "hash": "6a6c18a0c1ef23d85977a4a2f3fe33d3"
+        },
+        {
+            "date": 1650645063426,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-23.log",
+            "hash": "a97d0a706b42a9d0295408f23a419829"
+        },
+        {
+            "date": 1650729638541,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-24.log",
+            "hash": "fd6d1703e133a55e0b69b6ca68647801"
+        },
+        {
+            "date": 1650900422132,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-25.log",
+            "hash": "c54e70de7475c0239a899766a6dcfce9"
+        },
+        {
+            "date": 1650902662063,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-26.log",
+            "hash": "bba6ab4893425e49e56cea78bacf2470"
+        },
+        {
+            "date": 1650989859121,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\src\\logs\\error\\2022-04-27.log",
+            "hash": "c00e74975b9a017ab14a851e67111918"
+        }
+    ],
+    "hashType": "md5"
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/users.interface.ts"],"sourcesContent":["export interface User {\n  id: number;\n  username: string;\n  password?: string;\n  email: string;\n  nickname: string;\n  gender: 1 | 2;\n  avatar: string;\n  mobile: number;\n  status: 1 | 0;\n  deleted: 0 | 1;\n}\n"],"names":[],"mappings":"AAAA"}

@@ -1,0 +1,295 @@
+2022-04-27 00:18:05 error: [GET] /current/menus >> StatusCode:: 500, Message:: UserRoleModel is not associated to RoleModel!
+2022-04-27 00:18:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m112[0m       ],
+[7m   [0m [91m      ~[0m
+[96msrc/services/users.service.ts[0m:[93m112[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m112[0m       ],
+[7m   [0m [91m       ~[0m
+[96msrc/services/users.service.ts[0m:[93m113[0m:[93m28[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m113[0m       where: { id: userId },
+[7m   [0m [91m                           ~[0m
+[96msrc/services/users.service.ts[0m:[93m114[0m:[93m6[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m114[0m     });
+[7m   [0m [91m     ~[0m
+[96msrc/services/users.service.ts[0m:[93m115[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m115[0m     if (!findUser) throw new HttpException(409, "You're not user");
+[7m   [0m [91m        ~[0m
+[96msrc/services/users.service.ts[0m:[93m115[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m115[0m     if (!findUser) throw new HttpException(409, "You're not user");
+[7m   [0m [91m                   ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m118[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m118[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m121[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m121[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m120[0m:[93m67[0m
+    [7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+    [7m   [0m [96m                                                                  ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m121[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m121[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m144[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m144[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                    ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m69[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                                    ~[0m
+[96msrc/services/users.service.ts[0m:[93m147[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m147[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m146[0m:[93m85[0m
+    [7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+    [7m   [0m [96m                                                                                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m147[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m147[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m157[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m157[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m                                           ~[0m
+[96msrc/services/users.service.ts[0m:[93m160[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m160[0m     if (isEmpty(username)) throw new HttpException(400, "You're not username");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m159[0m:[93m60[0m
+    [7m159[0m   public async deleteUser(username: number): Promise<User> {
+    [7m   [0m [96m                                                           ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m160[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m160[0m     if (isEmpty(username)) throw new HttpException(400, "You're not username");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m168[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m168[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m169[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m169[0m }
+[7m   [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m112[0m       ],
+[7m   [0m [91m      ~[0m
+[96msrc/services/users.service.ts[0m:[93m112[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m112[0m       ],
+[7m   [0m [91m       ~[0m
+[96msrc/services/users.service.ts[0m:[93m113[0m:[93m28[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m113[0m       where: { id: userId },
+[7m   [0m [91m                           ~[0m
+[96msrc/services/users.service.ts[0m:[93m114[0m:[93m6[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m114[0m     });
+[7m   [0m [91m     ~[0m
+[96msrc/services/users.service.ts[0m:[93m115[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m115[0m     if (!findUser) throw new HttpException(409, "You're not user");
+[7m   [0m [91m        ~[0m
+[96msrc/services/users.service.ts[0m:[93m115[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m115[0m     if (!findUser) throw new HttpException(409, "You're not user");
+[7m   [0m [91m                   ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m118[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m118[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m120[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m121[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m121[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m120[0m:[93m67[0m
+    [7m120[0m   public async createUser(userData: CreateUserDto): Promise<User> {
+    [7m   [0m [96m                                                                  ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m121[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m121[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m144[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m144[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                    ~[0m
+[96msrc/services/users.service.ts[0m:[93m146[0m:[93m69[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+[7m   [0m [91m                                                                    ~[0m
+[96msrc/services/users.service.ts[0m:[93m147[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m147[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m146[0m:[93m85[0m
+    [7m146[0m   public async updateUser(username: number, userData: CreateUserDto): Promise<User> {
+    [7m   [0m [96m                                                                                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m147[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m147[0m     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m157[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m157[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m  ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m         ~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m                                  ~[0m
+[96msrc/services/users.service.ts[0m:[93m159[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m159[0m   public async deleteUser(username: number): Promise<User> {
+[7m   [0m [91m                                           ~[0m
+[96msrc/services/users.service.ts[0m:[93m160[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m160[0m     if (isEmpty(username)) throw new HttpException(400, "You're not username");
+[7m   [0m [91m               ~[0m
+
+  [96msrc/services/users.service.ts[0m:[93m159[0m:[93m60[0m
+    [7m159[0m   public async deleteUser(username: number): Promise<User> {
+    [7m   [0m [96m                                                           ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+[96msrc/services/users.service.ts[0m:[93m160[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m160[0m     if (isEmpty(username)) throw new HttpException(400, "You're not username");
+[7m   [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m168[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m168[0m   }
+[7m   [0m [91m  ~[0m
+[96msrc/services/users.service.ts[0m:[93m169[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m169[0m }
+[7m   [0m [91m~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-27 00:30:48 error: [GET] /current/menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'through' -> object with constructor 'Object'
+    --- property 'parent' closes the circle
+2022-04-27 00:40:17 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->RoleMenuModel.id' in 'field list'
+2022-04-27 00:40:30 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->RoleMenuModel.id' in 'field list'
+2022-04-27 09:17:57 error: [GET] /menus >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-27 21:35:10 error: [POST] /login >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-04-27 21:35:28 error: [POST] /login >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-04-27 22:43:11 error: [GET] /login-info >> StatusCode:: 401, Message:: Token身份无效!

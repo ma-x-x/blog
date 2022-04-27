@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/menus.interface.ts"],"sourcesContent":["export interface Menu {\n  id: number;\n  name: string;\n  parentId: string; // 父菜单ID\n  path: string; // 路由路径\n  component: string; // 组件路径\n  icon: string; // 菜单图标\n  sort: number;\n  visible: 0 | 1; // 0 禁用，1开启\n  redirect: string; //重定向路径\n}\n"],"names":[],"mappings":"AAAA"}

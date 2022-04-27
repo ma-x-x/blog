@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/users.roles.interface.ts"],"sourcesContent":["export interface UserRole {\n  id: number;\n  userId: string;\n  roleId: string;\n}\n"],"names":[],"mappings":"AAAA"}

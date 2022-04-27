@@ -1,0 +1,162 @@
+2022-04-24 00:06:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                         ~~~~~~~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m71[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                      ~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m73[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                        ~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m74[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                         [0m
+[96msrc/services/menus.service.ts[0m:[93m32[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m32[0m       order: [['sort', 'asc']],
+[7m  [0m [91m           ~[0m
+[96msrc/services/menus.service.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m     });
+[7m  [0m [91m    ~[0m
+[96msrc/services/menus.service.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m33[0m     });
+[7m  [0m [91m     ~[0m
+[96msrc/services/menus.service.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m34[0m     return menus;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/services/menus.service.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/menus.service.ts[0m:[93m36[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m36[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                         ~~~~~~~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m71[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                      ~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m73[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                        ~[0m
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m74[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<<Menu extends Model></Menu>>({
+[7m  [0m [91m                                                                         [0m
+[96msrc/services/menus.service.ts[0m:[93m32[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m32[0m       order: [['sort', 'asc']],
+[7m  [0m [91m           ~[0m
+[96msrc/services/menus.service.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m     });
+[7m  [0m [91m    ~[0m
+[96msrc/services/menus.service.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m33[0m     });
+[7m  [0m [91m     ~[0m
+[96msrc/services/menus.service.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m34[0m     return menus;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/services/menus.service.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/menus.service.ts[0m:[93m36[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m36[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-24 00:06:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<Menu extends Model>({
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<Menu extends Model>({
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-24 00:07:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<Menu extends Model>({
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m30[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m30[0m     const menus: Menu[] = await this.menus.findAll<Menu extends Model>({
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-24 00:08:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m29[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m29[0m   public async findMenusSelect(): Promise<Menu[] extends Model> {
+[7m  [0m [91m                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/menus.service.ts[0m:[93m29[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m29[0m   public async findMenusSelect(): Promise<Menu[] extends Model> {
+[7m  [0m [91m                                                              ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-24 00:11:37 error: [GET] /menus/select >> StatusCode:: 500, Message:: menus.toJSON is not a function
+2022-04-24 00:15:03 error: [GET] /menus/select >> StatusCode:: 500, Message:: nodes.filter is not a function

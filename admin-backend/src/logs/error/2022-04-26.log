@@ -1,0 +1,282 @@
+2022-04-26 00:21:38 error: [POST] /users >> StatusCode:: 400, Message:: property status should not exist, property gender should not exist, property roleIds should not exist, property mobile should not exist, password must be a string
+2022-04-26 00:22:58 error: uncaughtException: Unexpected token 'const'
+H:\workspace\博客\my-blog\admin-backend\src\services\users.service.ts:118
+            const hashedPassword = await (0, bcrypt_1.hash)(userData.password, 10);
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\users.controller.ts:4:1)
+2022-04-26 00:23:10 error: uncaughtException: Unexpected token 'const'
+H:\workspace\博客\my-blog\admin-backend\src\services\users.service.ts:118
+            const hashedPassword = await (0, bcrypt_1.hash)(userData.password, 10);
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\users.controller.ts:4:1)
+2022-04-26 00:44:21 error: uncaughtException: Class constructor UserRoleModel cannot be invoked without 'new'
+TypeError: Class constructor UserRoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:47:26)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-26 00:47:21 error: [GET] /login-info >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-26 00:54:26 error: [POST] /users >> StatusCode:: 400, Message:: property status should not exist, property gender should not exist, email must be an email, password must be a string
+2022-04-26 00:58:53 error: [POST] /users >> StatusCode:: 400, Message:: password must be a string, gender must be a number conforming to the specified constraints
+2022-04-26 01:01:54 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be a string, gender must be a number conforming to the specified constraints
+2022-04-26 01:02:36 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2022-04-26 01:16:34 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2022-04-26 21:23:46 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-26 21:30:08 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:30:33 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:31:16 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:32:34 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:32:47 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:34:53 error: uncaughtException: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/user_role.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 21:43:11 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->role_menu.menu_id' in 'on clause'
+2022-04-26 21:43:19 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-26 21:43:25 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->role_menu.menu_id' in 'on clause'
+2022-04-26 21:45:40 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->role_menu.menu_id' in 'on clause'
+2022-04-26 21:48:06 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-26 21:48:12 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->role_menu.menu_id' in 'on clause'
+2022-04-26 21:48:18 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->role_menu.menu_id' in 'on clause'
+2022-04-26 22:14:35 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:38:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:15:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-26 22:20:22 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:38:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:15:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-26 22:28:36 error: [GET] /current/menus >> StatusCode:: 500, Message:: MenuModel is associated to RoleModel using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+2022-04-26 22:42:59 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'menus->role_menu.created_at' in 'field list'
+2022-04-26 22:51:40 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'menus->role_menu.created_at' in 'field list'
+2022-04-26 22:52:53 error: uncaughtException: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 22:53:10 error: uncaughtException: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 22:53:24 error: uncaughtException: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module '@/models/users_roles.model'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts
+- H:\workspace\博客\my-blog\admin-backend\src\app.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-26 22:53:44 error: [GET] /current/menus >> StatusCode:: 500, Message:: Unknown column 'menus->role_menu.created_at' in 'field list'
+2022-04-26 23:22:45 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'roles->user_role.role_model_id' in 'on clause'
+2022-04-26 23:24:51 error: [GET] /login-info >> StatusCode:: 500, Message:: RoleModel is associated to UserModel using an alias. You've included an alias (roles), but it does not match the alias(es) defined in your association (RoleModels).
+2022-04-26 23:31:44 error: uncaughtException: No Sequelize instance passed
+Error: No Sequelize instance passed
+    at Function.init (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+sequelize@6.19.0_mysql2@2.3.3\node_modules\sequelize\src\model.js:960:13)
+    at default_1 (H:\workspace\博客\my-blog\admin-backend\src\models\user_role.model.ts:12:17)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:49:26)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-26 23:36:59 error: [GET] /login-info >> StatusCode:: 500, Message:: RoleModel is associated to UserModel using an alias. You've included an alias (roles), but it does not match the alias(es) defined in your association (RoleModels).

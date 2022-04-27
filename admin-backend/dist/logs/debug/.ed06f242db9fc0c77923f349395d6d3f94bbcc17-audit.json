@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "H:\\workspace\\博客\\my-blog\\admin-backend\\dist\\logs\\debug\\.ed06f242db9fc0c77923f349395d6d3f94bbcc17-audit.json",
+    "files": [
+        {
+            "date": 1650466236679,
+            "name": "H:\\workspace\\博客\\my-blog\\admin-backend\\dist\\logs\\debug\\2022-04-20.log",
+            "hash": "29bf4d04baff86a69a38b1dbf5766b51"
+        }
+    ],
+    "hashType": "md5"
+}

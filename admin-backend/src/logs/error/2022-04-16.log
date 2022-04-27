@@ -1,0 +1,280 @@
+2022-04-16 14:27:27 error: [POST] /signup >> StatusCode:: 400, Message:: Unexpected token ' in JSON at position 78
+2022-04-16 14:28:12 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2022-04-16 14:28:44 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2022-04-16 14:29:30 error: uncaughtException: LoginUserDto is not defined
+ReferenceError: LoginUserDto is not defined
+    at AuthRoute.initializeRoutes (H:\workspace\博客\my-blog\admin-backend\src\routes\auth.route.ts:25:28)
+    at new AuthRoute (H:\workspace\博客\my-blog\admin-backend\src\routes\auth.route.ts:14:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:58)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+2022-04-16 15:31:36 error: [POST] /signup >> StatusCode:: 409, Message:: 用户名已存在
+2022-04-16 19:47:41 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:48:56 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:49:57 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:51:18 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:52:35 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:54:30 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:57:53 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 19:58:21 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:00:20 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 20:00:36 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:02:11 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:02:42 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:02:55 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:03:42 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:35:28)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+2022-04-16 20:04:01 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:64:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:06:56 error: [POST] /login >> StatusCode:: 401, Message:: No authorization token was found
+2022-04-16 20:10:02 error: uncaughtException: algorithms should be set
+Error: algorithms should be set
+    at module.exports (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express-jwt@6.1.1\node_modules\express-jwt\lib\index.js:22:34)
+    at App.initializeMiddlewares (H:\workspace\博客\my-blog\admin-backend\src\app.ts:65:28)
+    at new App (H:\workspace\博客\my-blog\admin-backend\src\app.ts:30:10)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:9:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+2022-04-16 20:12:33 error: [POST] /login >> StatusCode:: 400, Message:: username must be a string, password must be a string
+2022-04-16 20:20:26 error: [GET] /users >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 20:24:22 error: [GET] /users >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:12:21 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+    at listenInCluster (net.js:1364:12)
+    at Server.listen (net.js:1450:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:37:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-16 23:13:31 error: [GET] / >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:13:32 error: [GET] /favicon.ico >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:26:10 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:26:36 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:28:27 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:28:35 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:32:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                              ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                                                    ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m54[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                                                     ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m12[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m15[0m };
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                              ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                                                    ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m11[0m:[93m54[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m11[0m     res.status(status).json({ { data: { message } } });
+[7m  [0m [91m                                                     ~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m12[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/error.middleware.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m15[0m };
+[7m  [0m [91m~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-16 23:35:13 error: [POST] /login >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-16 23:35:40 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-16 23:37:52 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-16 23:38:23 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-16 23:39:13 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-16 23:39:39 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-16 23:40:35 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配

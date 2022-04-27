@@ -1,0 +1,149 @@
+2022-04-22 00:50:11 error: [GET] /login-info >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-22 00:50:23 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-22 09:14:54 error: [GET] /login-info >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-22 22:47:50 error: [POST] /login >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-04-22 23:26:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m17[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m17[0m     title: this.name,
+[7m  [0m [91m               ~[0m
+[96msrc/models/menus.model.ts[0m:[93m18[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m18[0m     icon: this.icon
+[7m  [0m [91m              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m17[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m17[0m     title: this.name,
+[7m  [0m [91m               ~[0m
+[96msrc/models/menus.model.ts[0m:[93m18[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m18[0m     icon: this.icon
+[7m  [0m [91m              ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:29:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:29:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m59[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m59[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m59[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m59[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:32:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:32:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m         title: this.name,
+[7m  [0m [91m        ~~~~~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:33:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m        get() {
+[7m  [0m [91m       ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/menus.model.ts[0m:[93m63[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m63[0m        get() {
+[7m  [0m [91m       ~~~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-22 23:33:24 error: [GET] /menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus.meta' in 'field list'
+2022-04-22 23:33:30 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-22 23:33:37 error: [GET] /menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus.meta' in 'field list'
+2022-04-22 23:42:51 error: [GET] /menus >> StatusCode:: 500, Message:: Unknown column 'roles->menus->Roles_Menus.id' in 'field list'
+2022-04-22 23:57:58 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配

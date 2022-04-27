@@ -1,0 +1,96 @@
+:root {
+  // 这里可以设置你自定义的颜色变量
+  // 这个是element主要按钮:active的颜色，当主题更改后此变量的值也随之更改
+  --el-color-primary-dark: #0d84ff;
+  // element plus 2.1.0 禁用文本色值和正常文本色值无法区分问题
+  --el-text-color-disabled: #ccc;
+}
+
+/* 核心组件的变量，下面这些样式是必须要写的 */
+
+.el-link.el-link--primary:hover {
+  color: var(--el-color-primary-light-2) !important;
+}
+
+.el-tag {
+  --el-tag-bg-color: var(--el-color-primary-light-9);
+  --el-tag-border-color: var(--el-color-primary-light-8);
+  --el-tag-text-color: var(--el-color-primary);
+  --el-tag-hover-color: var(--el-color-primary);
+}
+
+.el-button--primary {
+  --el-button-text-color: var(--el-color-white) !important;
+  --el-button-bg-color: var(--el-color-primary) !important;
+  --el-button-border-color: var(--el-color-primary) !important;
+  --el-button-hover-bg-color: var(--el-color-primary-light-2) !important;
+  --el-button-hover-border-color: var(--el-color-primary-light-2) !important;
+  --el-button-active-bg-color: var(--el-color-primary-dark) !important;
+  --el-button-active-border-color: var(--el-color-primary-dark) !important;
+}
+
+.el-button--primary.is-plain{
+    --el-button-text-color: var(--el-color-primary)!important;
+    --el-button-bg-color: var(--el-color-primary-light-9)!important;
+    --el-button-border-color: var(--el-color-primary-light-5)!important;
+    --el-button-hover-text-color: var(--el-color-white)!important;
+    --el-button-hover-bg-color: var(--el-color-primary)!important;
+    --el-button-hover-border-color: var(--el-color-primary)!important;
+    --el-button-active-text-color: var(--el-color-white)!important;
+    --el-button-active-border-color: var(--el-color-primary)!important;
+}
+
+// 覆盖 element-plus 的样式
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+// 选中行背景色值
+.el-table__body tr.current-row td {
+  background-color: #e1f3d8b5 !important;
+}
+
+// card 的header统一高度
+.el-card__header{
+  height: 60px!important;
+}
+
+// 表格表头和表体未对齐
+.el-table__header col[name="gutter"] {
+  display: table-cell !important;
+}

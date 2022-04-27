@@ -1,0 +1,39 @@
+2022-04-15 00:33:54 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:34:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-15 00:34:04 error: [POST] /login >> StatusCode:: 400, Message:: username must be a string
+2022-04-15 00:34:21 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2022-04-15 00:43:50 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:34:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-15 00:44:02 error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+express@4.17.3\node_modules\express\lib\application.js:618:24)
+    at App.listen (H:\workspace\博客\my-blog\admin-backend\src\app.ts:34:14)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-15 00:44:05 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email

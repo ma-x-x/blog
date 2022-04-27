@@ -1,0 +1,124 @@
+2022-04-25 23:28:03 error: [GET] /login-info >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-25 23:41:30 error: [GET] /users >> StatusCode:: 500, Message:: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+2022-04-25 23:44:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/page.middleware.ts[0m:[93m17[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m17[0m     const limit = pageSize?Number(pageSize)??undefined;
+[7m  [0m [91m                                                      ~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m18[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                ~~~~~~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m18[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/page.middleware.ts[0m:[93m17[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m17[0m     const limit = pageSize?Number(pageSize)??undefined;
+[7m  [0m [91m                                                      ~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m18[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                ~~~~~~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m18[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                      ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-25 23:44:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/page.middleware.ts[0m:[93m20[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                  ~~~~~~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m20[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/page.middleware.ts[0m:[93m20[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                  ~~~~~~[0m
+[96msrc/middlewares/page.middleware.ts[0m:[93m20[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       const offset: any = pageNum Number((pageNum - 1) * limit);
+[7m  [0m [91m                                        ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-25 23:47:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m42[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                         ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m98[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                 ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m107[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                          ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m125[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m42[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                         ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m98[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                 ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m107[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                          ~[0m
+[96msrc/controllers/users.controller.ts[0m:[93m17[0m:[93m125[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m       let result = queryParams.offset ?? = { list: findAllUsersData.rows, total: findAllUsersData.count }:: findAllUsersData.rows;
+[7m  [0m [91m                                                                                                                            ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)

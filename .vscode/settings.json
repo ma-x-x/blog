@@ -9,5 +9,7 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "prettier.printWidth": 80,
+  "yaml.format.printWidth": 80
 }

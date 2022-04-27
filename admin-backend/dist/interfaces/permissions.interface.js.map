@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/permissions.interface.ts"],"sourcesContent":["export interface Permissions {\n  id: number;\n  name: string;\n  menuId: string; // 菜单模块ID\n  urlPerm: string; // URL权限标识\n  btnPerm: string; // 按钮权限标识\n}\n"],"names":[],"mappings":"AAAA"}

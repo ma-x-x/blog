@@ -1,0 +1,529 @@
+2022-04-21 00:12:18 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:18:16 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:20:26 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:20:33 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:21:29 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:21:36 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:21:40 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:22:15 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:22:23 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:22:39 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:22:46 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:23:52 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:24:14 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:24:21 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:24:55 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:24:59 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 00:32:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/formatToTree.ts[0m:[93m1[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m1[0m export function getTree = function(data, parentId) {
+[7m [0m [91m                        ~[0m
+[96msrc/utils/formatToTree.ts[0m:[93m1[0m:[93m35[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m1[0m export function getTree = function(data, parentId) {
+[7m [0m [91m                                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/formatToTree.ts[0m:[93m1[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m1[0m export function getTree = function(data, parentId) {
+[7m [0m [91m                        ~[0m
+[96msrc/utils/formatToTree.ts[0m:[93m1[0m:[93m35[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m1[0m export function getTree = function(data, parentId) {
+[7m [0m [91m                                  ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+2022-04-21 00:52:58 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 01:11:23 error: [GET] /menus >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-21 01:11:45 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:12:34 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:12:57 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:14:12 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:15:06 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:15:36 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:16:26 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:18:47 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:20:44 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:20:45 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:20:50 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 01:20:51 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 09:52:27 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 09:53:20 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 09:53:58 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 22:57:41 error: uncaughtException: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js
+require() of ES modules is not supported.
+require() of H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\lodash.js from H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+Instead rename lodash.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+lodash-es@4.17.21\node_modules\lodash-es\package.json.
+
+    at Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+    at Object.require.extensions.<computed> [as .js] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1445:43)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 23:13:43 error: uncaughtException: Cannot find module 'lodash-es'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts
+- H:\workspace\博客\my-blog\admin-backend\src\routes\menus.route.ts
+- H:\workspace\博客\my-blog\admin-backend\src\routes\index.route.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+Error: Cannot find module 'lodash-es'
+Require stack:
+- H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts
+- H:\workspace\博客\my-blog\admin-backend\src\routes\menus.route.ts
+- H:\workspace\博客\my-blog\admin-backend\src\routes\index.route.ts
+- H:\workspace\博客\my-blog\admin-backend\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+@cspotcode+source-map-support@0.7.0\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+tsconfig-paths@3.14.1\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\controllers\menus.controller.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_4548f6b74f1429cc78c61eff38b5b472\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+2022-04-21 23:15:19 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 23:15:45 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 23:22:14 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 23:23:16 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 23:30:03 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle
+2022-04-21 23:34:51 error: [GET] /menus >> StatusCode:: 500, Message:: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'parent' -> object with constructor 'Object'
+    --- property 'through' closes the circle

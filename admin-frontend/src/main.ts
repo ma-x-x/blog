@@ -1,21 +1,44 @@
-import { createApp } from 'vue';
+import { createApp, Directive } from 'vue';
 import App from './App.vue';
-import ElementPlus from 'element-plus';
-import store from '@/store';
 import router from '@/router';
-import zhCn from 'element-plus/es/locale/lang/zh-cn';
+
+import { createPinia } from 'pinia';
+import { localStorage } from '@/utils/storage';
+
+import ElementPlus from 'element-plus';
+import 'element-plus/theme-chalk/index.css';
+import Pagination from '@/components/Pagination/index.vue';
+import '@/permission';
+
+// 引入svg注册脚本
+import 'virtual:svg-icons-register';
+
+// 国际化
+import i18n from '@/lang/index';
+
+// 自定义样式
+import '@/styles/index.scss';
+
+// 全局方法
+import { listDictsByCode } from '@/api/system/dict';
 
 const app = createApp(App);
 
-// 挂载pinia
-app.use(store);
+// 自定义指令
+import * as directive from '@/directive';
 
-// 注册路由
-app.use(router);
-
-// 国际化
-app.use(ElementPlus, {
-  local: zhCn,
+Object.keys(directive).forEach(key => {
+  app.directive(key, (directive as { [key: string]: Directive })[key]);
 });
 
-app.mount('#app');
+// 全局方法
+app.config.globalProperties.$listDictsByCode = listDictsByCode;
+
+// 注册全局组件
+app
+  .component('Pagination', Pagination)
+  .use(createPinia())
+  .use(router)
+  .use(ElementPlus, { size: localStorage.get('size') || 'default' })
+  .use(i18n)
+  .mount('#app');

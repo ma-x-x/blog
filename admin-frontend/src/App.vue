@@ -1,31 +1,44 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue';
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vita" />
-  <div class="root">
-    <h3>欢迎使用 less</h3>
-  </div>
-  <RouterView />
+  <el-config-provider :locale="locale">
+    <router-view />
+  </el-config-provider>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<script setup lang="ts">
+import { computed, onMounted, ref, watch } from "vue";
+import { ElConfigProvider } from "element-plus";
 
-<style lang="less">
-.root {
-  color: red;
-}
-</style>
+import { localStorage } from "@/utils/storage";
+import useStore from "@/store";
+
+// 导入 Element Plus 语言包
+import zhCn from "element-plus/es/locale/lang/zh-cn";
+import en from "element-plus/es/locale/lang/en";
+
+const { app } = useStore();
+
+const language = computed(() => app.language);
+
+const locale = ref();
+
+watch(
+  language,
+  (value) => {
+    if (value == "en") {
+      locale.value = en;
+    } else {
+      locale.value = zhCn;
+    }
+  },
+  {
+    // 初始化立即执行
+    immediate: true
+  }
+);
+
+onMounted(() => {
+  const style = localStorage.get("style");
+  document.documentElement.style.cssText = style as string;
+});
+</script>
+

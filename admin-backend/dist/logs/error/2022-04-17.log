@@ -1,0 +1,120 @@
+2022-04-17 00:03:57 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 00:24:33 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 00:24:45 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'NaN' in 'where clause'
+2022-04-17 00:25:11 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'NaN' in 'where clause'
+2022-04-17 00:28:52 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'NaN' in 'where clause'
+2022-04-17 00:38:38 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 01:09:29 error: [POST] /login >> StatusCode:: 500, Message:: Unknown column 'nickname' in 'field list'
+2022-04-17 01:10:57 error: [POST] /login >> StatusCode:: 500, Message:: Table 'my-blog.users' doesn't exist
+2022-04-17 11:39:06 error: [POST] /login >> StatusCode:: 409, Message:: 用户名不存在
+2022-04-17 11:39:39 error: [POST] /signup >> StatusCode:: 500, Message:: notNull Violation: UserModel.nickname cannot be null,
+notNull Violation: UserModel.avatar cannot be null,
+notNull Violation: UserModel.mobile cannot be null
+2022-04-17 11:40:44 error: [POST] /signup >> StatusCode:: 500, Message:: notNull Violation: UserModel.nickname cannot be null,
+notNull Violation: UserModel.avatar cannot be null,
+notNull Violation: UserModel.mobile cannot be null
+2022-04-17 11:41:27 error: [POST] /signup >> StatusCode:: 400, Message:: property nickname should not exist
+2022-04-17 11:41:49 error: [POST] /signup >> StatusCode:: 400, Message:: property nickname should not exist
+2022-04-17 11:42:40 error: [POST] /signup >> StatusCode:: 500, Message:: notNull Violation: UserModel.avatar cannot be null,
+notNull Violation: UserModel.mobile cannot be null
+2022-04-17 11:42:45 error: [POST] /signup >> StatusCode:: 500, Message:: notNull Violation: UserModel.avatar cannot be null,
+notNull Violation: UserModel.mobile cannot be null
+2022-04-17 12:20:09 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:33:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:20:24 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:34:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:20:36 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:33:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:20:47 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:33:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:22:06 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:33:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:22:16 error: uncaughtException: Class constructor RoleModel cannot be invoked without 'new'
+TypeError: Class constructor RoleModel cannot be invoked without 'new'
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:33:19)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\app.ts:11:1)
+2022-04-17 12:39:25 error: [GET] /roles >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-17 12:39:44 error: [GET] /users >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-17 12:39:46 error: [GET] /users >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-17 12:40:01 error: [POST] /login >> StatusCode:: 409, Message:: 用户名不存在
+2022-04-17 14:03:41 error: [POST] /signup >> StatusCode:: 409, Message:: 用户名已存在
+2022-04-17 14:03:43 error: [POST] /signup >> StatusCode:: 409, Message:: 用户名已存在
+2022-04-17 14:03:48 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 14:05:44 error: [GET] /users >> StatusCode:: 401, Message:: Token身份无效!
+2022-04-17 14:15:56 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 21:53:53 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 22:39:05 error: uncaughtException: UserModel.belongsToMany called with something that's not a subclass of Sequelize.Model
+Error: UserModel.belongsToMany called with something that's not a subclass of Sequelize.Model
+    at Function.belongsToMany (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+sequelize@6.19.0_mysql2@2.3.3\node_modules\sequelize\src\associations\mixin.js:49:13)
+    at Object.<anonymous> (H:\workspace\博客\my-blog\admin-backend\src\databases\index.ts:41:10)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_b1738d1eb0c8e687c0f1aa39c84932ef\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2022-04-17 22:55:48 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'roles->UserRoleModel.user_model_id' in 'field list'
+2022-04-17 23:12:44 error: [POST] /login >> StatusCode:: 409, Message:: 用户名或密码不匹配
+2022-04-17 23:13:06 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'roles->UserRoleModel.user_model_id' in 'field list'
+2022-04-17 23:24:29 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'roles->UserRoleModel.role_model_id' in 'on clause'
+2022-04-17 23:25:28 error: [GET] /login-info >> StatusCode:: 500, Message:: Unknown column 'roles->UserRoleModel.role_model_id' in 'on clause'

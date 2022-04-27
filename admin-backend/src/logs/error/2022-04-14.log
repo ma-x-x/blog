@@ -1,0 +1,132 @@
+2022-04-14 22:53:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m16[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m               ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m17[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m                ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m                                                       ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   public authController = new AuthController();
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/routes/auth.route.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m13[0m   constructor() {
+[7m  [0m [91m                ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m17[0m   private initializeRoutes() {
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/routes/auth.route.ts[0m:[93m17[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m17[0m   private initializeRoutes() {
+[7m  [0m [91m                             ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m22[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m16[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m               ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m17[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m                ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m10[0m   public router：(options?: RouterOptions): core.Router = Router();
+[7m  [0m [91m                                                       ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   public authController = new AuthController();
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/routes/auth.route.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m13[0m   constructor() {
+[7m  [0m [91m                ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m17[0m   private initializeRoutes() {
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/routes/auth.route.ts[0m:[93m17[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m17[0m   private initializeRoutes() {
+[7m  [0m [91m                             ~[0m
+[96msrc/routes/auth.route.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m22[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-04-14 22:53:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m16[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m10[0m   public router：Router = Router();
+[7m  [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m10[0m:[93m16[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m10[0m   public router：Router = Router();
+[7m  [0m [91m               ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-04-14 23:31:11 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2022-04-14 23:32:02 error: [POST] /login >> StatusCode:: 409, Message:: You're password not matching
+2022-04-14 23:58:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       where: {[Op.or]:[ email: userData.email, username: userData.username] },
+[7m  [0m [91m                             ~[0m
+[96msrc/services/auth.service.ts[0m:[93m18[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       where: {[Op.or]:[ email: userData.email, username: userData.username] },
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       where: {[Op.or]:[ email: userData.email, username: userData.username] },
+[7m  [0m [91m                             ~[0m
+[96msrc/services/auth.service.ts[0m:[93m18[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       where: {[Op.or]:[ email: userData.email, username: userData.username] },
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:824:19)
+    at H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (H:\workspace\博客\my-blog\node_modules\.pnpm\registry.npmmirror.com+ts-node@10.7.0_8a464b5d0630505659de9169bb10923f\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
