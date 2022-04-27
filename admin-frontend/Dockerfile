@@ -6,7 +6,7 @@
 FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
-RUN RUN pnpm install -g pnpm && pnpm install
+RUN RUN npm install -g pnpm && pnpm install
 ADD ./ ./
 RUN pnpm run build
 
