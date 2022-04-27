@@ -5,11 +5,10 @@
 
 FROM node:alpine as builder
 WORKDIR /app
-ADD package.json package-lock.json ./
-RUN npm config set registry https://registry.npm.taobao.org && \ 
-    npm install
+ADD package.json ./
+RUN RUN pnpm install -g pnpm && pnpm install
 ADD ./ ./
-RUN npm run build
+RUN pnpm run build
 
 # 选择更小体积的基础镜像
 FROM nginx:alpine
