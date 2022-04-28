@@ -6,7 +6,7 @@
 FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
-RUN npm config set registry https://registry.npm.taobao.org && npm config set ignore-engines true &&\
+RUN npm config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
     npm install -g vue-tsc vite && npm install
 ADD ./ ./
 RUN npm run build
