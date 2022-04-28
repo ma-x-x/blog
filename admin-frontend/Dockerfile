@@ -7,7 +7,7 @@ FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
 RUN npm config set registry https://registry.npm.taobao.org && \
-    npm install
+    && npm install -g vue-tsc vite && npm install
 ADD ./ ./
 RUN npm run build
 
@@ -15,4 +15,4 @@ RUN npm run build
 FROM nginx:alpine
 EXPOSE 3000
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
