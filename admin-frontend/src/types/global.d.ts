@@ -21,3 +21,5 @@ declare module 'path-browserify' {
   const content: any;
   export = content;
 }
+
+type ComponentSize = any;

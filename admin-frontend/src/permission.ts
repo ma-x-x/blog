@@ -24,8 +24,7 @@ router.beforeEach(async (to, form, next) => {
       } else {
         try {
           await user.getUserInfo();
-          const roles = user.roles;
-          const accessRoutes: any = await permission.generateRoutes(roles);
+          const accessRoutes: any = await permission.generateRoutes();
           accessRoutes.forEach((route: any) => {
             router.addRoute(route);
           });

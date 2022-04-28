@@ -126,7 +126,7 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref, unref, onMounted, toRefs } from 'vue';
+import { reactive, ref, onMounted, toRefs } from 'vue';
 
 import { Search, Plus, Edit, Refresh, Delete } from '@element-plus/icons-vue';
 import { ElForm, ElMessage, ElMessageBox } from 'element-plus';
@@ -182,20 +182,8 @@ const state = reactive({
   iconSelectVisible: false,
 });
 
-const {
-  loading,
-  single,
-  multiple,
-  queryParams,
-  menuList,
-  total,
-  dialog,
-  formData,
-  rules,
-  menuOptions,
-  isExternalPath,
-  iconSelectVisible,
-} = toRefs(state);
+const { loading, queryParams, menuList, dialog, formData, rules, menuOptions, isExternalPath, iconSelectVisible } =
+  toRefs(state);
 
 /**
  * 查询
