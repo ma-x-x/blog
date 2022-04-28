@@ -1,5 +1,5 @@
 # Common build stage
-FROM node:14.14.0-alpine3.12 as common-build-stage
+FROM node:alpine as  common-build-stage
 
 COPY . ./app
 
@@ -8,7 +8,7 @@ WORKDIR /app
 RUN yarn config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
     yarn install
 
-EXPOSE 3000
+EXPOSE 8000
 
 # Development build stage
 FROM common-build-stage as development-build-stage
