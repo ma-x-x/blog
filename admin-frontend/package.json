@@ -18,7 +18,7 @@
     "axios": "0.26.1",
     "better-scroll": "2.4.2",
     "echarts": "5.3.2",
-    "element-plus": "2.1.9",
+    "element-plus": "2.1.11",
     "lodash-es": "4.17.21",
     "nprogress": "0.2.0",
     "path-browserify": "1.0.1",

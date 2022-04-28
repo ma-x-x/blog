@@ -32,7 +32,6 @@ router.beforeEach(async (to, form, next) => {
         } catch (error) {
           // 移除 token 并跳转登录页
           await user.resetToken();
-          ElMessage.error((error as any) || 'Has Error');
           next(`/login?redirect=${to.path}`);
           NProgress.done();
         }
