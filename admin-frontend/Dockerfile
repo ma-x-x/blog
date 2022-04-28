@@ -8,7 +8,7 @@ WORKDIR /app
 ADD package.json ./
 RUN yarn config set registry https://registry.npm.taobao.org && yarn install
 ADD ./ ./
-RUN pnpm run build
+RUN npm run build
 
 # 选择更小体积的基础镜像
 FROM nginx:alpine
