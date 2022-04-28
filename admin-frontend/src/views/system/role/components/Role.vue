@@ -165,13 +165,13 @@ function submitForm() {
   dataFormRef.value.validate((valid: any) => {
     if (valid) {
       if (state.formData.id) {
-        updateRole(state.formData.id as any, state.formData).then(response => {
+        updateRole(state.formData.id as any, state.formData).then(() => {
           ElMessage.success('修改成功');
           state.dialog.visible = false;
           handleQuery();
         });
       } else {
-        addRole(state.formData).then(response => {
+        addRole(state.formData).then(() => {
           ElMessage.success('新增成功');
           state.dialog.visible = false;
           handleQuery();

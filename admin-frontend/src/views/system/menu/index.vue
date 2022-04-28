@@ -4,21 +4,21 @@
       <el-col :span="10" :xs="24">
         <el-card class="box-card" shadow="always">
           <template #header>
-            <svg-icon color="#333" icon-class="menu"/>
+            <svg-icon color="#333" icon-class="menu" />
             菜单列表
           </template>
-          <menu-table @menuClick="handleMenuClick"/>
+          <menu-table @menuClick="handleMenuClick" />
         </el-card>
       </el-col>
       <el-col :span="14" :xs="24">
         <el-card class="box-card" shadow="always">
           <template #header>
-            <svg-icon color="#333" icon-class="perm"/>
+            <svg-icon color="#333" icon-class="perm" />
             <span style="margin:0 5px;">权限列表</span>
-            <el-tag type="success" v-if="menuId" size="small">{{ menuName }}</el-tag>
-            <el-tag type="warning" v-else size="small">请点击左侧菜单列表选择</el-tag>
+            <el-tag v-if="menuId" type="success" size="small">{{ menuName }}</el-tag>
+            <el-tag v-else type="warning" size="small">请点击左侧菜单列表选择</el-tag>
           </template>
-          <perm-table :menuId="menuId" :menuName="menuName"/>
+          <perm-table :menu-id="menuId" :menu-name="menuName" />
         </el-card>
       </el-col>
     </el-row>

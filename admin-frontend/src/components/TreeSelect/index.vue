@@ -1,14 +1,14 @@
 <template>
   <div class="el-tree-select">
     <el-select
-      style="width: 100%"
-      v-model="modelValue"
       ref="treeSelect"
+      v-model="modelValue"
+      style="width: 100%"
       :filterable="true"
       :clearable="true"
-      @clear="clearHandle"
       :filter-method="selectFilterData"
       :placeholder="placeholder"
+      @clear="clearHandle"
     >
       <el-option :value="modelValue" :label="valueTitle">
         <el-tree
@@ -29,14 +29,7 @@
 </template>
 
 <script setup>
-import {
-  ref,
-  getCurrentInstance,
-  nextTick,
-  onMounted,
-  computed,
-  watch,
-} from "vue";
+import { ref, getCurrentInstance, nextTick, onMounted, computed, watch } from 'vue';
 
 const { proxy } = getCurrentInstance();
 
@@ -46,9 +39,9 @@ const state = defineProps({
     type: Object,
     default: () => {
       return {
-        value: "value", // 值
-        label: "label", // 名
-        children: "children", // 子级
+        value: 'value', // 值
+        label: 'label', // 名
+        children: 'children', // 子级
       };
     },
   },
@@ -62,7 +55,7 @@ const state = defineProps({
   // v-model 绑定的值
   modelValue: {
     type: [String, Number],
-    default: "",
+    default: '',
   },
   // 数据源
   options: {
@@ -72,21 +65,21 @@ const state = defineProps({
   // 提示文字
   placeholder: {
     type: String,
-    default: "",
+    default: '',
   },
 });
 
-const emit = defineEmits(["update:modelValue"]);
+const emit = defineEmits(['update:modelValue']);
 
 const modelValue = computed({
   get: () => {
     return state.modelValue;
   },
-  set: (val) => {
-    emit("update:modelValue", val);
+  set: val => {
+    emit('update:modelValue', val);
   },
 });
-const valueTitle = ref("");
+const valueTitle = ref('');
 const defaultExpandedKey = ref([]);
 
 function handleNodeClick(node) {
@@ -94,7 +87,7 @@ function handleNodeClick(node) {
   modelValue.value = node[state.props.value];
   defaultExpandedKey.value = [];
   proxy.$refs.treeSelect.blur();
-  selectFilterData("");
+  selectFilterData('');
 }
 
 function selectFilterData(val) {
@@ -103,25 +96,25 @@ function selectFilterData(val) {
 
 function filterNode(value, data) {
   if (!value) return true;
-  return data[state.props["label"]].indexOf(value) !== -1;
+  return data[state.props['label']].indexOf(value) !== -1;
 }
 
 function clearHandle() {
-  valueTitle.value = "";
-  modelValue.value = "";
+  valueTitle.value = '';
+  modelValue.value = '';
   defaultExpandedKey.value = [];
   clearSelected();
 }
 
 function clearSelected() {
-  const allNode = document.querySelectorAll("#tree-option .el-tree-node");
-  allNode.forEach((element) => element.classList.remove("is-current"));
+  const allNode = document.querySelectorAll('#tree-option .el-tree-node');
+  allNode.forEach(element => element.classList.remove('is-current'));
 }
 
 function initHandle() {
   nextTick(() => {
     const selectedValue = modelValue.value;
-    if (selectedValue !== null && typeof selectedValue !== "undefined") {
+    if (selectedValue !== null && typeof selectedValue !== 'undefined') {
       const node = proxy.$refs.selectTree.getNode(selectedValue);
       if (node) {
         valueTitle.value = node.data[state.props.label];
@@ -143,7 +136,7 @@ watch(modelValue, () => {
 });
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .el-scrollbar .el-scrollbar__view .el-select-dropdown__item {
   padding: 0;
   background-color: #fff;

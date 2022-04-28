@@ -1,13 +1,13 @@
 <template>
   <div ref="rightPanel" :class="{show:show}" class="rightPanel-container">
-    <div class="rightPanel-background"/>
+    <div class="rightPanel-background" />
     <div class="rightPanel">
       <div class="handle-button" :style="{'top':buttonTop+'px','background-color':theme}" @click="show=!show">
-        <Close style="width: 1em; height: 1em;vertical-align: middle " v-show="show"/>
-        <Setting style="width:1em; height:1em;vertical-align: middle " v-show="!show"/>
+        <Close v-show="show" style="width: 1em; height: 1em;vertical-align: middle " />
+        <Setting v-show="!show" style="width:1em; height:1em;vertical-align: middle " />
       </div>
       <div class="rightPanel-items">
-        <slot/>
+        <slot />
       </div>
     </div>
   </div>

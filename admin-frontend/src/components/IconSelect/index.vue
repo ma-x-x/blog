@@ -2,7 +2,7 @@
   <div class="icon-body">
     <el-input
       v-model="iconName"
-      style="position: relative;"
+      style="position: relative"
       clearable
       placeholder="请输入图标名称"
       @clear="filterIcons"
@@ -12,7 +12,7 @@
     </el-input>
     <div class="icon-list">
       <div v-for="(item, index) in iconList" :key="index" @click="selectedIcon(item)">
-        <svg-icon color="#999" :icon-class="item" style="height: 30px;width: 16px;margin-right: 5px" />
+        <svg-icon color="#999" :icon-class="item" style="height: 30px; width: 16px; margin-right: 5px" />
         <span>{{ item }}</span>
       </div>
     </div>
@@ -20,10 +20,10 @@
 </template>
 
 <script setup>
-import { ref} from "vue";
+import { ref } from 'vue';
 import SvgIcon from '@/components/SvgIcon/index.vue';
 
-let icons = []
+let icons = [];
 const modules = import.meta.glob('../../assets/icons/svg/*.svg');
 for (const path in modules) {
   const p = path.split('assets/icons/svg/')[1].split('.svg')[0];
@@ -36,28 +36,28 @@ const iconName = ref('');
 const emit = defineEmits(['selected']);
 
 function filterIcons() {
-  iconList.value = icons
+  iconList.value = icons;
   if (iconName.value) {
-    iconList.value = icons.filter(item => item.indexOf(iconName.value) !== -1)
+    iconList.value = icons.filter(item => item.indexOf(iconName.value) !== -1);
   }
 }
 
 function selectedIcon(name) {
-  emit('selected', name)
-  document.body.click()
+  emit('selected', name);
+  document.body.click();
 }
 
 function reset() {
-  iconName.value = ''
-  iconList.value = icons
+  iconName.value = '';
+  iconList.value = icons;
 }
 
 defineExpose({
-  reset
-})
+  reset,
+});
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .icon-body {
   width: 100%;
   padding: 10px;
