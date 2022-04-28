@@ -7,7 +7,7 @@ FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
 RUN npm config set registry https://registry.npm.taobao.org && \
-    && npm install -g vue-tsc vite && npm install
+    npm install -g vue-tsc vite && npm install
 ADD ./ ./
 RUN npm run build
 
