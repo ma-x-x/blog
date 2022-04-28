@@ -3,10 +3,10 @@
 # 每次都需要 npm i，可合理利用 Docker 缓存，ADD 命令中内容发生改变将会破坏缓存。
 # 可将 package.json 提前移至目标目录，只要 package.json/lockfile 不发生变动，将不会重新 npm i
 
-FROM node:15.0.0 as builder
+FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
-RUN npm config set registry https://registry.npm.taobao.org && \
+RUN npm config set registry https://registry.npm.taobao.org && npm config set ignore-engines true &&\
     npm install -g vue-tsc vite && npm install
 ADD ./ ./
 RUN npm run build
