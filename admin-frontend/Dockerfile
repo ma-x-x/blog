@@ -6,7 +6,7 @@
 FROM node:alpine as builder
 WORKDIR /app
 ADD package.json ./
-RUN npm install -g pnpm && pnpm install
+RUN yarn config set registry https://registry.npm.taobao.org && yarn install
 ADD ./ ./
 RUN pnpm run build
 
