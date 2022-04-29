@@ -6,7 +6,7 @@ COPY . ./app
 WORKDIR /app
 
 RUN yarn config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
-    yarn global add node-pre-gyp && yarn install
+    yarn global add node-pre-gyp node-gyp && yarn install
 
 EXPOSE 8000
 
