@@ -15,7 +15,7 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./admin-frontend
-    container_name: app_frontend
+    container_name: admin_frontend
     volumes:
       - /app/node_modules
       - ./admin-frontend:/app
@@ -27,7 +27,7 @@ services:
       context: ./admin-backend
       target: development-build-stage
       dockerfile: Dockerfile
-    container_name: server
+    container_name: admin_backend
     ports:
       - '8000:8000'
     volumes:
