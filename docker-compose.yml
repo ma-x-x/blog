@@ -1,6 +1,16 @@
 version: '3.7'
 
 services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    container_name: my-blog
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    stdin_open: true
+    ports:
+      - 9000:9000
   admin_frontend:
     build:
       dockerfile: Dockerfile
@@ -41,16 +51,6 @@ services:
       - '3306:3306'
     networks:
       - backend
-  nginx:
-    build:
-      dockerfile: Dockerfile
-      context: ./nginx
-    container_name: my-blog
-    volumes:
-      - ./nginx:/etc/nginx/conf.d
-    stdin_open: true
-    ports:
-      - 9000:9000
 
 networks:
   backend:
