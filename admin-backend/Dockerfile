@@ -1,13 +1,10 @@
 # Common build stage
 FROM node:alpine as  common-build-stage
-
-COPY . ./app
-
 WORKDIR /app
-
+ADD package.json ./
 RUN yarn config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
     yarn global add node-pre-gyp node-gyp && yarn install
-
+ADD ./ ./
 EXPOSE 4000
 
 # Development build stage

@@ -21,8 +21,8 @@ services:
     ports:
       - '4000:4000'
     volumes:
-      - ./:/app
       - /app/node_modules
+      - ./admin-backend:/app
     restart: 'unless-stopped'
     networks:
       - backend
