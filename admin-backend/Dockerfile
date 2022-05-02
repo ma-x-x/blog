@@ -12,6 +12,8 @@ FROM common-build-stage as development-build-stage
 
 RUN chmod -R root /app
 
+RUN chmod -R /root/.npm/_logs
+
 RUN chmod +x /app/docker-entrypoint.sh
 
 
