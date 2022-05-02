@@ -41,7 +41,6 @@ services:
       - '3306:3306'
     networks:
       - backend
-
   nginx:
     build:
       dockerfile: Dockerfile
