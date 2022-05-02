@@ -1,11 +1,18 @@
 pipeline {
     agent any
-    
+
     stages {
         stage('Build') {
             steps {
                 script {
                     sh 'docker-compose build'
+                }
+            }
+        }
+        stage('Stop') {
+            steps {
+                script {
+                    sh 'docker-compose stop'
                 }
             }
         }
