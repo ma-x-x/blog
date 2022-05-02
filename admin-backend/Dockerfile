@@ -8,7 +8,7 @@ WORKDIR /app
 RUN yarn config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
     yarn global add node-pre-gyp node-gyp && yarn install
 
-EXPOSE 8000
+EXPOSE 4000
 
 # Development build stage
 FROM common-build-stage as development-build-stage
