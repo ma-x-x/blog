@@ -1,6 +1,16 @@
 version: '3.7'
 
 services:
+  proxy:
+    image: nginx:alpine
+    container_name: proxy
+    ports:
+      - '9000:9000'
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/nginx.conf
+    restart: 'unless-stopped'
+    networks:
+      - backend
   nginx:
     build:
       dockerfile: Dockerfile
