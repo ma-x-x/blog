@@ -3,7 +3,7 @@ FROM node:alpine as  common-build-stage
 WORKDIR /app
 ADD package.json ./
 RUN yarn config set registry https://registry.npm.taobao.org && yarn config set ignore-engines true &&\
-    sudo yarn global add node-pre-gyp node-gyp  gyp && yarn install
+    yarn global add node-pre-gyp node-gyp gyp && yarn install
 ADD ./ ./
 EXPOSE 4000
 
