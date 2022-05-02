@@ -1,17 +1,7 @@
 version: '3.7'
 
 services:
-  proxy:
-    image: nginx:alpine
-    container_name: proxy
-    ports:
-      - '9000:9000'
-    volumes:
-      - ./nginx/default.conf:/etc/nginx/nginx.conf
-    restart: 'unless-stopped'
-    networks:
-      - backend
-  frontend:
+  admin_frontend:
     build:
       dockerfile: Dockerfile
       context: ./admin-frontend
@@ -22,7 +12,7 @@ services:
     stdin_open: true
     ports:
       - 3000:3000
-  server:
+  admin_backend:
     build:
       context: ./admin-backend
       target: development-build-stage
@@ -51,6 +41,17 @@ services:
       - '3306:3306'
     networks:
       - backend
+
+  nginx:
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    container_name: my-blog
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    stdin_open: true
+    ports:
+      - 9000:9000
 
 networks:
   backend:
